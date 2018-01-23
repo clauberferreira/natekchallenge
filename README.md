@@ -6,8 +6,11 @@ mvn package && java -jar target/natek-challenge-0.0.1-SNAPSHOT.jar
 
 
 1. API URL is http://localhost:8080/trade. It's expecting a json in its body parameter.
-2. There is an html to call the API /trade on the URL http://localhost:8080
+2. There is a html to call the API /trade on the URL http://localhost:8080
 3. There is a swagger documetion on the URL http://localhost:8080/swagger-ui.html
+4. I made some assumptions in regard to two business rules that wasn't much clear in the document. It can be found in the code as comment.
+5. 
+
 
 JSON for testing:
 
